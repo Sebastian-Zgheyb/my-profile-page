@@ -1,2 +1,3 @@
 # My-Profile-Page
-My website for the AMAZING trainee program
+My website for the trainee program
+:]
