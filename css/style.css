@@ -1,0 +1,233 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #333;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.header-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul { list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 20px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 20px;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-item {
+  text-align: center;
+}
+
+.skill-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.html {
+  background-color: #f16529;
+}
+
+.css {
+  background-color: #2965f1;
+}
+
+.javascript {
+  background-color: #f1c429;
+}
+
+.jquery {
+  background-color: #29f18c;
+}
+
+.php {
+  background-color: #8829f1;
+}
+
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-item {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.experience-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.project-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form label {
+  width: 100px;
+  margin-right: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: calc(100% - 110px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 1px;
+  border: solid;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.project-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: round;
+  background-position: center;
+  margin-right: 20px;
+}
+
+.about-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  margin-right: 20px;
+
+}
+
+a:hover{
+  color:red;
+}
+
+a:active{
+  color:green;
+}
+
+.header-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px;
+}
+
+.social-links a {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#facts {
+  padding: 20px;
+}
+
+#facts h2 {
+  margin-bottom: 20px;
+}
+
+#facts li {
+  margin-bottom: 10px;
+}
+
+.experience-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px;
+}
